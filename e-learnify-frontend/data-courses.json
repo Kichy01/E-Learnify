@@ -1,0 +1,77 @@
+[
+  {
+    "id": "full-stack-web-development",
+    "title": "Full-Stack Web Development",
+    "description": "Master front-end and back-end technologies to build complete web applications.",
+    "imageUrl": "",
+    "modules": [
+      "HTML & CSS",
+      "JavaScript",
+      "Node.js & Express",
+      "Databases",
+      "Deployment"
+    ],
+    "duration": "12 weeks",
+    "level": "Intermediate"
+  },
+  {
+    "id": "machine-learning-foundations",
+    "title": "Machine Learning Foundations",
+    "description": "Intro to ML concepts, algorithms and model evaluation.",
+    "imageUrl": "",
+    "modules": [
+      "Python for ML",
+      "Supervised Learning",
+      "Unsupervised Learning",
+      "Model Evaluation",
+      "Deployment"
+    ],
+    "duration": "8 weeks",
+    "level": "Beginner"
+  },
+  {
+    "id": "aws-cloud-architecture",
+    "title": "AWS Cloud Architecture",
+    "description": "Design and deploy scalable, highly available systems on AWS.",
+    "imageUrl": "",
+    "modules": [
+      "AWS Core Services",
+      "Networking & Security",
+      "Storage & DB",
+      "Scaling & Monitoring",
+      "CICD"
+    ],
+    "duration": "6 weeks",
+    "level": "Intermediate"
+  },
+  {
+    "id": "data-structures-algorithms",
+    "title": "Data Structures & Algorithms",
+    "description": "Essential algorithms and data structures for technical interviews and building efficient software.",
+    "imageUrl": "",
+    "modules": [
+      "Arrays & Strings",
+      "Linked Lists",
+      "Trees & Graphs",
+      "Sorting & Searching",
+      "Dynamic Programming"
+    ],
+    "duration": "10 weeks",
+    "level": "Advanced"
+  },
+  {
+    "id": "ui-ux-design",
+    "title": "UI/UX Design Fundamentals",
+    "description": "Learn design thinking, prototyping and user testing to craft delightful interfaces.",
+    "imageUrl": "",
+    "modules": [
+      "Design Principles",
+      "Figma Basics",
+      "Prototyping",
+      "User Research",
+      "Usability Testing"
+    ],
+    "duration": "6 weeks",
+    "level": "Beginner"
+  }
+]
