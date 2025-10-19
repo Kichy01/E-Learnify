@@ -11,11 +11,21 @@ import fs from "fs";
 dotenv.config();
 
 const app = express();
-app.use(cors());
+
+// ✅ Allow frontend requests (Vercel + local dev)
+app.use(cors({
+  origin: [
+    "http://localhost:8080",
+    "https://e-learnify.vercel.app"
+  ],
+  methods: ["GET", "POST"],
+  allowedHeaders: ["Content-Type", "Authorization"]
+}));
+
 app.use(bodyParser.json());
 
 // --- Configuration ---
-const PORT = process.env.PORT || 10000;
+const PORT = process.env.PORT || 10001;
 const JWT_SECRET = process.env.JWT_SECRET || "changeme";
 const GENAI_API_KEY = process.env.GENAI_API_KEY;
 
@@ -107,7 +117,7 @@ Use clean, readable formatting.
     const model = genaiClient.getGenerativeModel({ model: "gemini-1.5-flash" });
 
     const result = await model.generateContent(prompt);
-    
+
     const text = result.response.text();
 
     res.json({
